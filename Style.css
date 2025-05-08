@@ -13,7 +13,7 @@ body {
 
 /*header niii*/
 .whut {
-    background-image: url(image/suyopTa.jpg);
+    background-image: url(image/background.jfif);
     background-position: 45%;
     background-size: cover;
 }
@@ -549,6 +549,8 @@ footer {
 
 /*about page*/
 .toggle-group {
+    margin-left: 60px;
+    margin-right: 60px;
     margin-top: 60px;
     display: flex;
     gap: 30px;
@@ -581,6 +583,7 @@ footer {
 }
 
 .message {
+    margin-right: 30px;
     width: auto;
     height: auto;
     display: none;
@@ -616,12 +619,9 @@ footer {
     display: block;
 }
 
-.toggle-img {
-    background-image: url(image/1745273115456.jpg);
-    width: 45%;
-    height: 500px;
+.toggle-img img {
+    width: 600px;
     border-radius: 30px;
-
 }
 
 .faq-container {
