@@ -1,4 +1,5 @@
 /*header*/
+/*home*/
 @media (max-width: 768px) {
     body {
         width: 100%;
@@ -18,7 +19,7 @@
     }
 
     nav ul {
-        gap: 10px;
+        gap: 30px;
         margin-top: 10px;
         margin-right: 0;
         margin-left: 0;
@@ -37,14 +38,15 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-
-        .socmed {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
     }
+
+    .socmed {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .whut {
         background-size: cover;
@@ -56,6 +58,12 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+    }
+
+    .details {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
     }
 
     h3.product-text {
@@ -88,10 +96,39 @@
         position: relative;
         left: 0;
         align-items: center;
+        text-align: center;
+    }
+
+    /*about*/
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
+        .details {
+            align-items: center;
+            padding: 0;
+        }
+
+        .about-picture {
+            position: relative;
+            top: 60px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about-picture .branch {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
     }
 
     /*end*/
-
+    /*about sa home*/
     .about-us {
         margin: 0;
         display: flex;
@@ -116,21 +153,138 @@
 
     }
 
-    .about-text p {
-        font-size: 20px;
-        text-align: justify;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-left: 30px;
-        padding-rights: 30px;
+    .about-text {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+
+        }
+    }
+
+    .nur {
+        align-items: center;
     }
 
     .about-picture {
-        left: 30%;
-        width: 300px;
-        height: 100;
+        margin: 0;
+        width: 400px;
+        height: 400px;
         justify-content: center;
         align-items: center;
+        padding: 0;
+    }
 
+    /*ends*/
+    /*okay na diay sa home*/
+    /*contact sa home*/
+    .contact {
+        gap: 5px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /*footer*/
+
+    .footer {
+        display: inline;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copy {
+        column-gap: 30px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .footer-logo img {
+        width: 50px;
+        border-radius: 20%;
+    }
+
+    .footer-tex p {
+        padding-left: 90px;
+        text-align: center;
+        text-indent: 60px;
+    }
+
+    .foot {
+        display: flex;
+        gap: 15px;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /*contact*/
+
+    /*about*/
+    .toggle-group {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .group {
+        margin: 20px;
+    }
+
+    .toggle-img {
+
+        background-image: url(image/1745273115456.jpg);
+        width: 80%;
+        height: 500px;
+        border-radius: 30px;
+        background-position: center;
+
+        .faq-container {
+            margin: 30px;
+
+
+        }
+    }
+
+    .faq {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .socials img {
+        width: 40px;
+    }
+
+    .testimonials {
+        margin: 0;
     }
 }
