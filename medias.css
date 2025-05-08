@@ -252,9 +252,7 @@
         margin: 20px;
     }
 
-    .toggle-img {
-
-        background-image: url(image/1745273115456.jpg);
+    .toggle-img img {
         width: 80%;
         height: 500px;
         border-radius: 30px;
