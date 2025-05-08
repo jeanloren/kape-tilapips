@@ -136,52 +136,44 @@
     }
 
     .about-text {
-        color: #000;
-        padding: 5px;
+        padding: 5px 10px;
         margin-top: 0;
         margin-left: 0;
         font-size: 40px;
         text-align: center;
-        font-family: cursive;
+
         position: relative;
         bottom: 40px;
-
     }
 
-    .about-text {
+    .about-text h3 {
         text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-left: 10px;
+    }
 
-        h3 {
-            text-align: center;
-        }
+    .about-text p {
 
-        p {
-            font-size: 20px;
-            text-align: justify;
-
-        }
+        text-align: justify;
     }
 
     .nur {
-        align-items: center;
+        text-align: center;
     }
 
     .about-picture {
-        margin-left: 60%;
-        margin-right: 60%;
+        margin-left: auto;
+        margin-right: auto;
         width: 200px;
         height: 200px;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding: 0;
-
-        .branch {
-            margin: 0;
-        }
     }
+
+    .branch {
+        margin: 0;
+    }
+
 
     /*ends*/
     /*okay na diay sa home*/
