@@ -158,14 +158,14 @@
     }
 
     .about-picture {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         width: 300px;
         height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 30px;
+        border-radius: 10px;
     }
 
     .branch {
@@ -249,7 +249,15 @@
     }
 
     .message {
-        margin-right: 5px;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .mgs-group {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .toggle-img img {
@@ -260,6 +268,7 @@
     }
 
     .faq-container {
+        font-size: 13px;
         margin: 30px;
     }
 

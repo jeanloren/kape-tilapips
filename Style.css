@@ -8,7 +8,6 @@ body {
     width: 100%;
     font-family: cursive;
     background-color: #D3E671;
-    color: #000;
 }
 
 /*header niii*/
@@ -55,7 +54,7 @@ nav .link {
 
 nav .link:hover,
 nav li .link:hover {
-    color: #000000;
+
     transform: scale(1.1);
 }
 
