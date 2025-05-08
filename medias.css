@@ -263,18 +263,18 @@
 
 
     }
-}
 
-.faq {
-    margin-left: 60px;
-    margin-right: 60px;
-}
 
-.socials img {
-    width: 40px;
-}
+    .faq {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
 
-.testimonials {
-    margin: 0;
-}
+    .socials img {
+        width: 40px;
+    }
+
+    .testimonials {
+        margin: 0;
+    }
 }
