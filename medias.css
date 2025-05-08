@@ -54,6 +54,11 @@
     }
 
     /*show sa product*/
+    .show {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .product {
         display: flex;
         flex-direction: column;
@@ -61,14 +66,17 @@
     }
 
     .details {
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         width: 100%;
-        padding: 20px;
         margin: 0;
     }
 
     h3.product-text {
         padding-top: 10px;
-        padding-left: 0;
+        padding-left: 10;
     }
 
     .product-gallery {
@@ -86,6 +94,10 @@
         justify-content: center;
     }
 
+    .show {
+        padding-bottom: 0;
+    }
+
     .show button {
         margin-top: 20px;
         position: relative;
@@ -99,10 +111,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 0;
+        margin-top: 0;
 
         .details {
+            margin-left: 30px;
             align-items: center;
+            justify-content: center;
             padding: 0;
         }
 
@@ -111,6 +127,7 @@
             top: 60px;
             align-items: center;
             justify-content: center;
+            border-radius: 20px;
         }
 
         .about-picture .branch {
@@ -120,29 +137,20 @@
 
 
         }
-    }
 
-
-    .about-us {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
+        .about-us {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .about {
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 0;
     }
 
-    .about-text {
-        padding: 5px 10px;
-        margin-top: 0;
-        margin-left: 0;
-        font-size: 40px;
-        text-align: center;
-        position: relative;
-        bottom: 40px;
-    }
 
     .about-text h3 {
         text-align: center;
@@ -169,13 +177,14 @@
     }
 
     .branch {
-
+        border: none;
         margin: 0;
     }
 
-
     /*ends*/
     /*and testi okay na diay sa home*/
+
+
     /*contact sa home*/
     .contact {
         gap: 5px;
@@ -282,6 +291,37 @@
     }
 
     .testimonials {
-        margin: 0;
+        margin-top: 100px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /*contact page*/
+    .contact-img {
+        background: none;
+        display: none;
+    }
+
+    .contact-form {
+        border: none;
+    }
+
+    .contact-details p {
+        text-align: left;
+    }
+
+    .contact-details p,
+    strong {
+        font-size: 15px;
+    }
+
+    .contact-form {
+        padding: 10px;
+
+        h2 {
+            text-align: center;
+        }
     }
 }
