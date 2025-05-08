@@ -241,11 +241,10 @@
 
     /*about*/
     .toggle-group {
-        align-items: center;
         display: flex;
         flex-direction: column-reverse;
-        margin-left: 20px;
-        margin-right: 20px;
+        align-items: center;
+        margin: 0 20px;
     }
 
     .group {
@@ -260,15 +259,12 @@
 
     .faq-container {
         margin: 30px;
-
-
     }
-
 
     .faq {
-        margin-left: 60px;
-        margin-right: 60px;
+        margin: 0 60px;
     }
+
 
     .socials img {
         width: 40px;
