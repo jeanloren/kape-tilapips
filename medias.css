@@ -252,29 +252,28 @@
         margin: 20px;
     }
 
-    .toggle-img {
-        width: 80%;
-        height: 500px;
+    .toggle-img img {
+        width: 200px;
         border-radius: 30px;
-        background-position: center;
-
-        .faq-container {
-            margin: 30px;
-
-
-        }
     }
 
-    .faq {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
+    .faq-container {
+        margin: 30px;
 
-    .socials img {
-        width: 40px;
-    }
 
-    .testimonials {
-        margin: 0;
     }
+}
+
+.faq {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.socials img {
+    width: 40px;
+}
+
+.testimonials {
+    margin: 0;
+}
 }
