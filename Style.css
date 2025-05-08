@@ -159,18 +159,6 @@ h3.product-text {
     transition: transform 0.2s ease;
 }
 
-.product-gallery img:nth-child(1),
-.product-gallery img:nth-child(3) {
-    transform: rotateX(10deg);
-    top: -10px;
-    position: relative;
-}
-
-.product-gallery img:nth-child(2) {
-    height: 296px;
-    top: 7px;
-    position: relative;
-}
 
 .product-gallery img:hover {
     transform: scale(1.1);
@@ -593,8 +581,8 @@ footer {
 }
 
 .message {
-    width: 500px;
-    height: 500pxpx;
+    width: auto;
+    height: auto;
     display: none;
     padding: 10px;
     background-color: #fafdff;

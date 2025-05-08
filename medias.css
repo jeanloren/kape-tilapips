@@ -77,13 +77,8 @@
     }
 
     .product-gallery img {
-        width: autos;
-        height: 290px;
-    }
-
-    .product-gallery img:nth-child(2) {
-        height: 288px;
-
+        width: auto;
+        height: 200px;
     }
 
     #all {
