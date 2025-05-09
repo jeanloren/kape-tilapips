@@ -7,7 +7,7 @@
 body {
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #D3E671;
+    background-color: #acee86;
 }
 
 /*header niii*/
@@ -517,8 +517,8 @@ footer {
 
     img {
         width: 200px;
-        height: 74%;
-        object-fit: scale-down;
+        height: auto;
+        object-fit: fill;
     }
 
     h4 {
@@ -528,11 +528,12 @@ footer {
 }
 
 .best {
-    width: 25%;
+    width: 220px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+
 }
 
 /*about page*/
