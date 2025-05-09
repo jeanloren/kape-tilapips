@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #D3E671;
 }
 
@@ -68,7 +68,6 @@ nav li .link:hover {
 
 .text {
 
-    font-family: cursive;
     text-align: center;
     padding: 5px;
     color: #000000;
@@ -132,7 +131,6 @@ p {
 
 h3.product-text {
     font-size: 40px;
-    font-family: cursive;
     padding-top: 100px;
     padding-left: 30px;
 }
@@ -198,7 +196,6 @@ button:hover {
     margin: 10px;
     font-size: 40px;
     text-align: center;
-    font-family: cursive;
 }
 
 .testimonials-text p {
@@ -229,7 +226,6 @@ button:hover {
     font-size: 1.3rem;
     color: #1a1010;
     font-weight: 20;
-    font-family: cursive;
 
 
 }
@@ -243,7 +239,6 @@ button:hover {
 
 .contact h3 {
     font-size: 40px;
-    font-family: cursive;
 }
 
 .contact-us {
@@ -349,7 +344,6 @@ footer {
 .contact-form h2 {
     margin-bottom: 20px;
     font-size: 40px;
-    font-family: cursive;
 
 }
 
@@ -529,12 +523,16 @@ footer {
 
     h4 {
         padding: 10px;
+        padding-top: 0;
     }
 }
 
 .best {
+    width: 25%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px;
+    padding-bottom: 10px;
 }
 
 /*about page*/
