@@ -1,0 +1,212 @@
+.title {
+    background: #182848;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 2rem;
+}
+
+
+.courses {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(238, 77, 104);
+}
+
+.course-11 h1 {
+    font-size: 2rem;
+    color: #e93d93;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #e1eaff;
+    border-radius: 20px;
+}
+
+.course-12 {
+    display: flex;
+    gap: 80px;
+    margin: 30px;
+}
+
+.course-12 p {
+    margin: 10px;
+    width: 100%;
+    text-align: justify;
+    text-indent: 0.5in;
+    padding-left: 60px;
+    margin-left: 20px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    box-shadow: 0 0 10px palevioletred;
+}
+
+.course-12 .ab {
+    width: 100%;
+    text-align: center;
+}
+
+.course-12 h3 {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #4b6cb7;
+    align-items: end;
+    text-align: center;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+}
+
+
+.subs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub {
+    background: #fafafa;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #333;
+    font-size: 0.95rem;
+    box-shadow: 0 0 10px;
+
+
+    a {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        transition: 2s;
+    }
+}
+
+.back img {
+    width: 160%;
+    border-radius: 20px;
+}
+
+.con {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+
+    th {
+        border: 1px solid #ccc;
+        padding: 0.75rem;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    td {
+        border: 1px solid #ccc;
+        padding: 0.75rem;
+        text-align: left;
+    }
+}
+
+/*quotes*/
+
+.Quote-tips {
+    display: flex;
+    gap: 30px;
+}
+
+.quote-grid {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.quote-card {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px pink;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+
+    }
+
+    a {
+        padding: 7px;
+        background-color: #000000;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #4f6d7a;
+        font-weight: bold;
+        color: white;
+    }
+
+}
+
+/*IS*/
+.inspire-1 {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .Inspiring {
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    img {
+        border: 2px peachpuff;
+        padding: 20px;
+        width: 30%;
+        border-radius: 30px;
+    }
+
+
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        text-indent: .5in;
+        text-align: justify;
+        column-count: 2;
+        columns-gap: 50px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 0 0 20px;
+        border-radius: 30px;
+        font-size: 20px;
+
+    }
+}

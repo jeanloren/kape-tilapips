@@ -1,0 +1,228 @@
+/*index*/
+@media (max-width: 992px) {
+    .container3 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .container3 .our {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+@media (max-width:480px) {
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        a {
+            font-size: 20px;
+        }
+    }
+
+    .link a {
+        color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+        float: left;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    /*home*/
+
+
+    .side {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: row;
+
+    }
+
+    .side img {
+        width: 50%;
+    }
+
+    .tipsS img {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .side .tips-picture img {
+        margin: 0 10px;
+
+    }
+
+    /*naa pud ni sa features*/
+    /*topstudytips*/
+
+    .study-tips {
+        flex-wrap: wrap;
+    }
+
+    .tips-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tip-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .testimonials {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .test-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .test-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .arti-tips {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .arti-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .arti-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Quote-tips {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .quote-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .quote-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        img {
+            width: 80%;
+            height: 60%;
+        }
+    }
+
+    .vid-tips {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .vid-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .vid-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .learn {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .learn-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .learn-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    /*sa about, pomo,mind,acti,studytips*/
+
+    .about img {
+        width: 100%;
+    }
+
+    .about-section {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .container3 {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 20px;
+
+    }
+
+
+    /*mao ni sa grade level*/
+
+
+    .course-12 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 30px;
+    }
+
+    .course-12 img {
+        width: 100%;
+    }
+
+    .con {
+        margin: 0px;
+
+    }
+
+    .course-12 p {
+        margin: 0px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .Inspiring img {
+        width: 70%;
+    }
+
+    .Inspiring p {
+        column-count: 1;
+    }
+}
