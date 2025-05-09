@@ -513,7 +513,7 @@ footer {
 .product-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 
     img {
         width: 200px;
