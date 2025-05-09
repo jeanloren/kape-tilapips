@@ -89,6 +89,17 @@
         margin: 0 10px;
     }
 
+    .product-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img {
+            width: 50%;
+            height: 52%;
+            object-fit: scale-down;
+        }
+    }
 }
 
 /*header*/
@@ -427,6 +438,18 @@
 
         h2 {
             text-align: center;
+        }
+    }
+
+    .product-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img {
+            width: 50%;
+            height: 52%;
+            object-fit: scale-down;
         }
     }
 }
